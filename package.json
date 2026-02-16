@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "AI-powered legal chatbot for M&A, Private Equity, and Litigation professionals",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "concurrently \"npm run server:dev\" \"npm run client:dev\"",
     "client:dev": "vite",
